@@ -33,7 +33,7 @@
 
 ## **🤔 About**
 
-🚀 **mockBEE** will give you Fake Backend APIs for you to build awesome Frontend Projects!
+🚀 **mockBEE** gives you Fake Backend APIs for you to build awesome Frontend Projects!
 
 ⚡ Building and hosting custom backend is complex and time-consuming. Instead, use variety of fake APIs provided by **mockBEE** and get started instantly.
 
