@@ -17,6 +17,7 @@ const jwt = require("jsonwebtoken");
 
 export const signupHandler = function (schema, request) {
   const { email, password, ...rest } = JSON.parse(request.requestBody);
+  const createdAt = dayjs().format("YYYY-MM-DDTHH:mm:ssZ");
   try {
     // check if email already exists
     const foundUser = schema.users.findBy({ email });
@@ -53,6 +54,7 @@ export const signupHandler = function (schema, request) {
       {},
       {
         error,
+        errorMessage: "Unexpected error occured",
       }
     );
   }
